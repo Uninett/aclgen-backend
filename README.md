@@ -2,6 +2,8 @@
 
 This is the REST API for the ACLGen web application.
 
+This is a copy of https://github.com/aclgen/aclgen-backend.
+
 ## Running Django
 
 * To run the Django backend, run:
