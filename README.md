@@ -4,14 +4,29 @@ This is the REST API for the ACLGen web application.
 
 This is a copy of https://github.com/aclgen/aclgen-backend.
 
-## Running Django
+## Installing and running ACLGen backend
 
-* To run the Django backend, run:
-``python manage.py runserver``
+To install all necessary dependencies run
 
-* To migrate new model changes to the database, run: ``python manage.py migrate [api]`` (replace api with other packages if necessary)
+```console
+$ uv pip install -r pyproject.toml
+```
+To migrate new model changes to the database run
 
-* To run tests, run: ``pytest``
+```console
+$ python manage.py migrate
+```
+
+To run the Django backend, run:
+
+```console
+$ python manage.py runserver
+```
+
+To run tests run
+```console
+$ pytest
+```
 
 ## Swagger
 
